@@ -25,6 +25,13 @@
                                         <color key="textColor" red="0.85490196078431369" green="1" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qw-bT-jgU">
+                                        <rect key="frame" x="35" y="18" width="321" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.85490196078431369" green="1" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </view>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bP-K2-JCQ" userLabel="BottomView">
@@ -90,6 +97,7 @@
                         <outlet property="falseButton" destination="Wfe-ta-cqU" id="iVA-e5-aiP"/>
                         <outlet property="progressBar" destination="sl4-yw-iP8" id="4Rj-8x-QuS"/>
                         <outlet property="questionLabel" destination="59q-5t-kAS" id="6R7-AN-c4c"/>
+                        <outlet property="scoreLabel" destination="7qw-bT-jgU" id="1rm-4H-DAk"/>
                         <outlet property="trueButton" destination="GBe-LH-vDi" id="7qR-6f-NWM"/>
                     </connections>
                 </viewController>
